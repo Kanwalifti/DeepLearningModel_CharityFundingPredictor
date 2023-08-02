@@ -64,3 +64,12 @@ Since the loss was too high so, few attempts were made to optimize the model try
 ![Sequential Model3]()
 ![Loss&Accuracy3]()
 
+
+# Conclusion:
+Overall, the loss was very high and the accuracy for all three optimizations did not make it to 75%. The best results for accuracy were achieved during the original attempt, however, the loss was 0.57 the highest. I tried several different ways using different activation functions, optimization, tweaking dataset, and few other ways but there was no such change observed. 
+All three attempts to improve the accuracy of the model did not succeed; instead, they led to an increase in or higher loss. One of the ways to improve the result would have been to try to use Keras Tuner HyperModel. This would allow us to predict the best fit. 
+Since our dataset contains a lot of categorical data, it might be worth considering trying decision tree or random forest methods, as they could potentially perform better in this scenario.
+
+
+
+
