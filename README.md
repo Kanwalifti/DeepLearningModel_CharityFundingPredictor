@@ -47,4 +47,11 @@ The trained model is evaluated using the test data (`X_test_scaled` and `y_test`
 The model is saved as an .h5 file named "AlphabetSoupCharity.h5" using `nn.save()`. The `files.download()` function is then used to download the saved model file to the local machine.
 
 # Optimize the Model:
-Since the loss was too high so, 
+Since the loss was too high so, few attempts were made to optimize the model trying to achieve atleast 75% accuracy and less loss. 
+
+## Optimization 1:
+
+## Optimization 2:
+
+## Optimization 3:
+
