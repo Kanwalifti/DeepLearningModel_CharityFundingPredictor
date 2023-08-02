@@ -1,6 +1,6 @@
-## DeepLearningModel_CharityFundingPredictor
+# DeepLearningModel_CharityFundingPredictor
 
-## Overview:
+# Overview:
 Alphabet Soup, a non-profit foundation, seeks to develop an algorithm that can predict the success of funding applicants. Using machine learning and neural networks, our task is to build a binary classifier utilizing the dataset's features. This classifier should determine whether an applicant will be successful if funded by Alphabet Soup.
 
 # Code Overview:
