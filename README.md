@@ -40,9 +40,9 @@ Model Building:
 
 # Model Evaluation:
 The trained model is evaluated using the test data (`X_test_scaled` and `y_test`) with the `evaluate()` method, and the loss and accuracy metrics are printed.
-!['SequentialModel']()
+![SequentialModel]()
 
-!['Loss&Accuracy']()
+![Loss&Accuracy]()
 # Model Export: 
 The model is saved as an .h5 file named "AlphabetSoupCharity.h5" using `nn.save()`. The `files.download()` function is then used to download the saved model file to the local machine.
 
@@ -50,8 +50,17 @@ The model is saved as an .h5 file named "AlphabetSoupCharity.h5" using `nn.save(
 Since the loss was too high so, few attempts were made to optimize the model trying to achieve atleast 75% accuracy and less loss. 
 
 ## Optimization 1:
+![Optimization Tweak1]()
+![Sequential Model1]()
+![Loss&Accuracy1]()
 
 ## Optimization 2:
+![Optimization Tweak2]()
+![Sequential Model2]()
+![Loss&Accuracy2]()
 
 ## Optimization 3:
+![Optimization Tweak3]()
+![Sequential Model3]()
+![Loss&Accuracy3]()
 
