@@ -40,9 +40,9 @@ Model Building:
 
 # Model Evaluation:
 The trained model is evaluated using the test data (`X_test_scaled` and `y_test`) with the `evaluate()` method, and the loss and accuracy metrics are printed.
-![SequentialModel]()
+![SequentialModel](https://github.com/Kanwalifti/DeepLearningModel_CharityFundingPredictor/blob/main/Model/sequential%20model%20original.png)
 
-![Loss&Accuracy]()
+![Loss&Accuracy](https://github.com/Kanwalifti/DeepLearningModel_CharityFundingPredictor/blob/main/Model/loss%20%26%20accuracy%20original.png)
 # Model Export: 
 The model is saved as an .h5 file named "AlphabetSoupCharity.h5" using `nn.save()`. The `files.download()` function is then used to download the saved model file to the local machine.
 
@@ -50,19 +50,19 @@ The model is saved as an .h5 file named "AlphabetSoupCharity.h5" using `nn.save(
 Since the loss was too high so, few attempts were made to optimize the model trying to achieve atleast 75% accuracy and less loss. 
 
 ## Optimization 1:
-![Optimization Tweak1]()
-![Sequential Model1]()
-![Loss&Accuracy1]()
+![Optimization Tweak1](https://github.com/Kanwalifti/DeepLearningModel_CharityFundingPredictor/blob/main/Model/optimization1.png)
+![Sequential Model1](https://github.com/Kanwalifti/DeepLearningModel_CharityFundingPredictor/blob/main/Model/sequential%20model%20optimization1.png)
+![Loss&Accuracy1](https://github.com/Kanwalifti/DeepLearningModel_CharityFundingPredictor/blob/main/Model/loss%20%26%20accuracy%20optimization1.png)
 
 ## Optimization 2:
-![Optimization Tweak2]()
-![Sequential Model2]()
-![Loss&Accuracy2]()
+![Optimization Tweak2](https://github.com/Kanwalifti/DeepLearningModel_CharityFundingPredictor/blob/main/Model/optimization2.png)
+![Sequential Model2](https://github.com/Kanwalifti/DeepLearningModel_CharityFundingPredictor/blob/main/Model/sequential%20model%20optimization2.png)
+![Loss&Accuracy2](https://github.com/Kanwalifti/DeepLearningModel_CharityFundingPredictor/blob/main/Model/loss%20%26%20accuracy%20optimization2.png)
 
 ## Optimization 3:
-![Optimization Tweak3]()
-![Sequential Model3]()
-![Loss&Accuracy3]()
+![Optimization Tweak3](https://github.com/Kanwalifti/DeepLearningModel_CharityFundingPredictor/blob/main/Model/optimization3.png)
+![Sequential Model3](https://github.com/Kanwalifti/DeepLearningModel_CharityFundingPredictor/blob/main/Model/sequential%20model%20optimization3.png)
+![Loss&Accuracy3](https://github.com/Kanwalifti/DeepLearningModel_CharityFundingPredictor/blob/main/Model/loss%20%26%20accuracy%20optimization3.png)
 
 
 # Conclusion:
